@@ -11,7 +11,7 @@ Cleaned and processed the "Mall Customer Segmentation" dataset using Excel. This
 
 ### Advanced Steps:
 - Created a new **Age Group** column using Excel formula:
-  ```excel
+  '''excel'''
   =IF(D2>55, "SENIOR", IF(D2>25, "ADULT", "TEEN"))
 
 ## Visualizations
@@ -27,7 +27,9 @@ Cleaned and processed the "Mall Customer Segmentation" dataset using Excel. This
 ## Tools Used
 - Microsoft Excel
 - GitHub
+- Data: Mall Customer Segmentation Dataset (Kaggle)
 
 ## Learnings
 - Gained hands-on experience in data cleaning
 - Practiced creating charts in Excel for customer analysis
+- Learned how to structure and present a project in GitHub
