@@ -1,19 +1,25 @@
 # Mall Customer Segmentation
 
-## Task Summary
+###  Core Cleaning Steps:
 Cleaned and processed the "Mall Customer Segmentation" dataset using Excel. This included:
-- Handling missing values
-- Removing duplicates
-- Standardizing text fields
-- Fixing data types
-- Renaming columns for consistency
+- Handled missing values using filters
+- Removed duplicate rows
+- Standardized text fields (e.g., gender)
+- Converted inconsistent date and text formats
+- Renamed column headers to be clean and uniform
+- Checked and corrected data types
+
+### 🚀 Advanced Steps:
+- Created a new **Age Group** column using Excel formula:
+  ```excel
+  =IF(D2>55, "SENIOR", IF(D2>25, "ADULT", "TEEN"))
 
 ## Visualizations
 - Gender vs Spending Score (pie Chart)
 - Age Group vs Spending Score (Column Plot)
 
 ## Files Included
-- `cleaned_data.xlsx`: Final cleaned dataset
+- `cleaned_data.csv`: Final cleaned dataset
 - `raw_data.csv`: Original dataset
 - `charts/`: Screenshots of charts
 - `README.md`: This file
