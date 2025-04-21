@@ -1,6 +1,6 @@
 # Mall Customer Segmentation
 
-###  Core Cleaning Steps:
+### Core Cleaning Steps:
 Cleaned and processed the "Mall Customer Segmentation" dataset using Excel. This included:
 - Handled missing values using filters
 - Removed duplicate rows
@@ -9,7 +9,7 @@ Cleaned and processed the "Mall Customer Segmentation" dataset using Excel. This
 - Renamed column headers to be clean and uniform
 - Checked and corrected data types
 
-### 🚀 Advanced Steps:
+### Advanced Steps:
 - Created a new **Age Group** column using Excel formula:
   ```excel
   =IF(D2>55, "SENIOR", IF(D2>25, "ADULT", "TEEN"))
